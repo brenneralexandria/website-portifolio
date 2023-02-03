@@ -1,4 +1,39 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Titillium+Web&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Aboreto;
+}
+
+body {
+    color: blanchedalmond;
+    
+}
+
+header .container {
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+header .logo {
+    margin-left: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 10px;
+}
+
+header nav a:hover {
+    color: rgb(178, 169, 154);
 }
