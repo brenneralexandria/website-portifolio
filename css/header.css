@@ -5,26 +5,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Aboreto;
 }
 
 body {
     color: blanchedalmond;
+    background-image: url(../img/kobe.jpg);
+    background-size: cover;
     
+    background-repeat: no-repeat;
 }
 
-header .container {
-    background-color: rgb(18, 18, 18);
+header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 20px;
+    font-family: Aboreto;
+    background-color: rgb(18, 18, 18, 0.7);
 }
 
-header .logo {
+h2 {
     margin-left: 10px;
     font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    margin: 20px;
+}
+
+select {
+    margin-left: 440px;
 }
 
 header nav a {
@@ -36,4 +45,9 @@ header nav a {
 
 header nav a:hover {
     color: rgb(178, 169, 154);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
 }
