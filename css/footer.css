@@ -7,39 +7,24 @@
     box-sizing: border-box;
 }
 
-header {
-    position: relative;
+
+footer {
+    width: 99.4%;
+    height: 50px;
     display: flex;
-    justify-content: space-between; /* alinhamento horizontal */
     align-items: center; /* alinhamento vertical */
+    justify-content:center;
     padding: 5px; /* espaçamento ao redor do conteúdo */
-    font-family: Aboreto;
     background-color: rgb(18, 18, 18);
     border-radius: 7px;
+    position: absolute;
+    bottom: 5px;
     margin: 5px;
 }
 
-h2 {
-    margin-left: 10px;
-    font-family: 'Titillium Web', sans-serif;
-    color: beige;
-}
 
-.handlerNav {
-    font-family: 'Titillium Web', sans-serif;
-}
-
-a {
-    margin: 20px;
+nav .registro {
+    color:  rgb(230, 138, 0);
     text-decoration: none;
-    color: rgb(230, 138, 0);
-
-}
-
-a:hover {
-    color: rgb(178, 169, 154);
-}
-
-.handlerLink {
     font-family: 'Titillium Web', sans-serif;
 }
