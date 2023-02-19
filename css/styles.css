@@ -1,0 +1,17 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd9ce;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,28 +1,18 @@
-/* Google Font*/
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Titillium+Web&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header {
-    position: relative;
     display: flex;
     justify-content: space-between; /* alinhamento horizontal */
     align-items: center; /* alinhamento vertical */
     padding: 5px; /* espaçamento ao redor do conteúdo */
+    position: fixed;
+    top: 0;
+
     font-family: Aboreto;
     background-color: rgb(18, 18, 18);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+
     border-radius: 7px;
     margin: 5px;
-}
-
-h2 {
-    margin-left: 10px;
-    font-family: 'Titillium Web', sans-serif;
-    color: beige;
+    width: 99.4%;
 }
 
 .handlerNav {
@@ -32,7 +22,7 @@ h2 {
 a {
     margin: 20px;
     text-decoration: none;
-    color: rgb(230, 138, 0);
+    color: #ddd9ce;
 
 }
 
