@@ -2,12 +2,9 @@ main {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding: 5px;
 }
 
-h3 {
-    margin-top:  40px;
-}
-
-p {
-    margin-top: 60px;
+h2 {
+    margin-top:  70px;
 }
