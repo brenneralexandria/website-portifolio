@@ -134,24 +134,16 @@ nav .registro {
     height: 200px;
     display: flex;
     flex-direction: column;
-    padding: 20px; /* adicionar um espaçamento ao redor do conteúdo */
     align-items: center;
+    justify-content: center;
 }
   
 .containerContato h2 {
     color: #ffcc00;
     text-align: center; /* centralizar o texto */
 }
-  
-.containerContato .city {
-    color:#8993B3;
-    font-size: 12px;
-    margin-top: 10px;
-}
 
 .icons {
-    bottom: 10px;
-    left: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,8 +157,6 @@ nav .registro {
     display: inline-block;
     display: flex;
     transition: 0.3s ease-in-out;
-    justify-content: center;
-    align-items: center;
 }
 
 .icons li a:hover {
@@ -175,7 +165,6 @@ nav .registro {
 
 .icons li a img {
     transform: scale(0.5);
-    margin-top: 30px;
 }
 
 .icons li .git {
